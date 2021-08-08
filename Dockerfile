@@ -15,6 +15,8 @@ RUN pip3 install flask_sqlalchemy
 RUN pip3 install psycopg2
 RUN pip3 install sqlalchemy
 RUN pip3 install waitress
+RUN pip3 install boto3
+
 
 COPY / /
 
